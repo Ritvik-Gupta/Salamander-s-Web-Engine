@@ -33,7 +33,8 @@ Executes the Command
 Provides the Network Details to the _URL_ of the Current Webpage. Prints the Network Details in the
 _Console_. The above process takes a long time to execute and may fail.
 
-  <p align="center"><img  src="./readme_assets/5.png" width="80%"></p>
+  <p align="center"><img  src="./readme_assets/c.png" width="80%"></p>
+  <p align="center"><img  src="./readme_assets/d.png" width="80%"></p>
   
 Executes the Command
 
