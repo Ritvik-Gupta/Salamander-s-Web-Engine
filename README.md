@@ -72,4 +72,4 @@ When Running the Application some errors may be encountered as follows :
 
 <p align="center"><img  src="./readme_assets/e.png" width="80%"></p>
 
-These are mainly due to CORS policy on certain sites ( such as [Youtube](www.youtube.com) that deny **CORS 'Access-Control-Allow-Origin'** on local servers but these errors do not affect the actual _Process_ and can be overlooked.
+These are mainly due to CORS policy on certain sites ( such as [Youtube](www.youtube.com) ) that deny **CORS 'Access-Control-Allow-Origin'** on local servers. There may also be errors related to **Cookies**. But these errors do not affect the actual _Process_ and can be overlooked.
