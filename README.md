@@ -26,7 +26,9 @@ Provides the Current IP Config of the System. Prints the IP Config in the _Conso
   
 Executes the Command
 
-`system('cmd /k "ipconfig"')`
+```python
+system('cmd /k "ipconfig"')
+```
 
 ## Network Details
 
@@ -38,23 +40,31 @@ _Console_. This process takes a long time to execute and may fail is certain cas
   
 Executes the Command
 
-`system('cmd /k "tracert <URL-OF-WEBPAGE>"')`
+```python
+system('cmd /k "tracert <URL-OF-WEBPAGE>"')
+```
 
 # Installing and Testing
 
 #### Clone the repository or get the ZIP file
 
-`git clone ...`
+```bash
+git clone ...
+```
 
 #### Create a **Virtual ENV** and _activate_ it if required
 
-`virtualenv <ENV-NAME> <ENV-NAME>/Scripts/activate`
+```bash
+virtualenv <ENV-NAME> <ENV-NAME>/Scripts/activate
+```
 
-_( Activate Script depends on Environment )_
+_( Activate Script depends on Operating System )_
 
 #### Install the Dependencies and Run
 
-`pip install PyQtWebEngine PyQt5 python main.py`
+```bash
+pip install PyQtWebEngine PyQt5 python main.py
+```
 
 # References
 
@@ -72,4 +82,6 @@ When Running the Application some errors may be encountered as follows :
 
 <p align="center"><img  src="./readme_assets/e.png" width="80%"></p>
 
-These are mainly due to CORS policy on certain sites ( such as [Youtube](https://www.youtube.com/) ) that deny **CORS 'Access-Control-Allow-Origin'** on local servers. There may also be errors related to **Cookies**. But these errors do not affect the actual _Process_ and can be overlooked.
+These are mainly due to CORS policy on certain sites ( such as [Youtube](https://www.youtube.com/) ) that deny 
+**CORS 'Access-Control-Allow-Origin'** on local servers. There may also be errors related to **Cookies**. 
+But these errors do not affect the actual _Process_ and can be overlooked.
