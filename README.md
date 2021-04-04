@@ -26,11 +26,11 @@ Provides the Current IP Config of the System. Prints the IP Config in the *Conso
   
 Executes the Command
 
-``
+`
   
   system('cmd /k "ipconfig"')
 
-``
+`
   
 
 ## Network Details
