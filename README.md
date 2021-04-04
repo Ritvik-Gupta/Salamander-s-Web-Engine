@@ -26,7 +26,9 @@ Provides the Current IP Config of the System. Prints the IP Config in the *Conso
   
 Executes the Command
 
-`system('cmd /k "ipconfig"')`
+`
+system('cmd /k "ipconfig"')
+`
   
 
 ## Network Details
@@ -38,14 +40,18 @@ The above process takes a long time to execute and may fail.
   
 Executes the Command
 
-`system('cmd /k "tracert <URL-OF-WEBPAGE>"')`
+`
+system('cmd /k "tracert <URL-OF-WEBPAGE>"')
+`
 
 
 # Installing and Testing
 
 #### Clone the repository or get the ZIP file
 
-`git clone ...`
+`
+git clone ...
+`
 
 #### Create a **Virtual ENV** and *activate* it if required
 
@@ -54,7 +60,7 @@ virtualenv <ENV-NAME>
 <ENV-NAME>/Scripts/activate
 `
 
-( Activate Script depends on Environment )
+*( Activate Script depends on Environment )*
 
 #### Install the Dependencies and Run
 
