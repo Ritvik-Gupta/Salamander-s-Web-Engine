@@ -55,7 +55,8 @@ git clone ...
 #### Create a **Virtual ENV** and _activate_ it if required
 
 ```bash
-virtualenv <ENV-NAME> <ENV-NAME>/Scripts/activate
+virtualenv <ENV-NAME> 
+<ENV-NAME>/Scripts/activate
 ```
 
 _( Activate Script depends on Operating System )_
