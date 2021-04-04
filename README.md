@@ -4,8 +4,9 @@ Web Engine to simulate a real browser for **Networks and Communication Project**
 
 ## Basic Components
 
-These are all the Basic Components that are present in every Web Browser Engine. Each operation emits
-an event which can be captured and viewed in the extended **Docker Widget** attached to the Browser
+These are all the Basic Components that are present in every Web Browser Engine. Each operation
+emits an event which can be captured and viewed in the extended **Docker Widget** attached to the
+Browser
 
 - **Go to Home** : Go Back to Home Page, defaults to [Google Home Page](www.google.com)
 - **Go to Back** : Go Back one Page
@@ -21,8 +22,8 @@ in the terminal.
 
 Provides the Current IP Config of the System. Prints the IP Config in the _Console_.
 
-  <p align="center"><img  src="./readme_assets/a.png" width="80%"></p>
-  <p align="center"><img  src="./readme_assets/b.png" width="80%"></p>
+  <p align="center"><img  src="./assets/a.png" width="80%"></p>
+  <p align="center"><img  src="./assets/b.png" width="80%"></p>
   
 Executes the Command
 
@@ -33,8 +34,8 @@ Executes the Command
 Provides the Network Details to the _URL_ of the Current Webpage. Prints the Network Details in the
 _Console_. This process takes a long time to execute and may fail is certain cases.
 
-  <p align="center"><img  src="./readme_assets/c.png" width="80%"></p>
-  <p align="center"><img  src="./readme_assets/d.png" width="80%"></p>
+  <p align="center"><img  src="./assets/c.png" width="80%"></p>
+  <p align="center"><img  src="./assets/d.png" width="80%"></p>
   
 Executes the Command
 
@@ -64,12 +65,13 @@ _( Activate Script depends on Environment )_
   Execution Browser Window
 - [Python Threading](https://realpython.com/intro-to-python-threading/) for Executing Multiple
   Processes
-  
 
 ## Note
 
 When Running the Application some errors may be encountered as follows :
 
-<p align="center"><img  src="./readme_assets/e.png" width="80%"></p>
+<p align="center"><img  src="./assets/e.png" width="80%"></p>
 
-These are mainly due to CORS policy on certain sites ( such as [Youtube](www.youtube.com) that deny **CORS 'Access-Control-Allow-Origin'** on local servers but these errors do not affect the actual _Process_ and can be overlooked.
+These are mainly due to CORS policy on certain sites ( such as [Youtube](www.youtube.com) that deny
+**CORS 'Access-Control-Allow-Origin'** on local servers but these errors do not affect the actual
+_Process_ and can be overlooked.
