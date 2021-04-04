@@ -7,7 +7,7 @@ Web Engine to simulate a real browser for **Networks and Communication Project**
 These are all the Basic Components that are present in every Web Browser Engine. Each operation emits
 an event which can be captured and viewed in the extended **Docker Widget** attached to the Browser
 
-- **Go to Home** : Go Back to Home Page, defaults to [Google Home Page](www.google.com)
+- **Go to Home** : Go Back to Home Page, defaults to [Google Home Page](https://www.google.com/)
 - **Go to Back** : Go Back one Page
 - **Go to Forward** : Go Forward one Page
 - **Reload Page** : Reload current Page
@@ -72,4 +72,4 @@ When Running the Application some errors may be encountered as follows :
 
 <p align="center"><img  src="./readme_assets/e.png" width="80%"></p>
 
-These are mainly due to CORS policy on certain sites ( such as [Youtube](www.youtube.com) ) that deny **CORS 'Access-Control-Allow-Origin'** on local servers. There may also be errors related to **Cookies**. But these errors do not affect the actual _Process_ and can be overlooked.
+These are mainly due to CORS policy on certain sites ( such as [Youtube](https://www.youtube.com/) ) that deny **CORS 'Access-Control-Allow-Origin'** on local servers. There may also be errors related to **Cookies**. But these errors do not affect the actual _Process_ and can be overlooked.
