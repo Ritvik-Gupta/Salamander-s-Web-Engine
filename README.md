@@ -64,7 +64,8 @@ _( Activate Script depends on Operating System )_
 #### Install the Dependencies and Run
 
 ```bash
-pip install PyQtWebEngine PyQt5 python main.py
+pip install PyQtWebEngine PyQt5 
+python main.py
 ```
 
 # References
